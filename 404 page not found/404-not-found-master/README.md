@@ -45,7 +45,7 @@
 - Even though the design was simple, it really was fun. Beginner friendly and easy to code.
 <!-- - What have you learned/improved?    -->
 - Since this challenge is an easy one, I didn't get to learn anything new but definitely had fun while making the error page.
-- Looking forward for the upcoming challenges
+- Looking forward for the upcoming challenges.
 
 <!-- ### Built With -->
 
