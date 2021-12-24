@@ -100,13 +100,31 @@ a{
 .cards{
     /* border:2px solid pink; */
     position: relative;
+    transition: 100ms filter ease-in-out, 100ms transform ease-in-out;
 }
 
+.cards:hover{
+    filter: drop-shadow(20px 20px 10px rgba(0, 0, 0, 0.342));
+}
 
 .image{
     /* border: 2px solid blue; */
     width: 100%;
+    position: relative;
 }
+
+.image::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg #000 #000);
+    background: rgba(0, 0, 0, 0.726);
+    z-index: 6;
+}
+
 
 /* .shift-down{
     transform: translateY(100px);
@@ -114,7 +132,8 @@ a{
 
 .card-name{
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    transition: 100ms transform ease-in-out,100ms color ease-in-out;
 }
 
 .card-post{
@@ -123,6 +142,12 @@ a{
     font-family: 'PT Serif', serif;
     font-size: 0.8rem;
 }
+
+/* .cards:hover .card-name{
+    transform: translate(4em, -11em);
+    color: white;
+} */
+
 
 .cards:nth-child(1) .card-post{
     top: 37px;
