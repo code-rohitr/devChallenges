@@ -4,6 +4,8 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Serif', serif; */
 
+/* general initialization */
+
 html{
     overflow-x: hidden;
 }
@@ -17,6 +19,45 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+
+/* animating cards */
+.contentanimate1{
+    animation: transitionIn 750ms;
+}
+
+.contentanimate2{
+    animation: transitionIn2 750ms;
+}
+
+
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes transitionIn2{
+    from{
+        opacity: 0;
+        transform: translateY(110px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(100px);
+    }
+}
+
+
+
 
 /* heading section */
 
@@ -206,6 +247,7 @@ a{
 
 .footer h4{
     color: #A9A9A9;
+    font-size: 0.9rem;
 }
 
 .footer a{
