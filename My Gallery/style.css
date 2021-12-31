@@ -507,3 +507,13 @@ a{
         height: 75vh;
     }
 }
+
+
+@media screen and (max-width: 1024px) and (max-height: 850px) {
+
+
+    .nav{
+        height: 60vh;
+    }
+
+}
