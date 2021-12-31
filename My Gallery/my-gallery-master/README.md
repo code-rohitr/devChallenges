@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{My Gallery}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -41,16 +41,16 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo
+<!-- - Where can I see your demo -->
 - The demo can be viewed through the given url: https://my-gallery-rohitr.netlify.app/
 
-- What was your experience?
+<!-- - What was your experience? -->
 - Arranging the pictures in and elegant way using the grid properties in css was really fun.
 
-- What have you learned/improved?
+<!-- - What have you learned/improved? -->
 - Since this challenge included the usage of various grid properties in CSS, it was really helpful to recapitulate all the properties and how they are used. 
 
-- Your wisdom? :)
+<!-- - Your wisdom? :) -->
 - This challenge is suitable for anyone looking to revise the Grid properties in CSS.
 
 <!-- ### Built With -->
