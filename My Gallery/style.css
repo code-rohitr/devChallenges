@@ -546,3 +546,16 @@ a{
         width: 40vw;
     }
 }
+
+
+@media screen and (max-width: 795px) and (max-height: 520px) {
+
+    .nav{
+        height: 90vh;
+    }
+
+    .hero-container{
+        width: 45rem;
+        height: 45rem;
+    }
+}
