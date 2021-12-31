@@ -548,10 +548,10 @@ a{
 }
 
 
-@media screen and (max-width: 795px) and (max-height: 520px) {
+@media screen and (max-width: 795px) and (max-height: 795px) {
 
     .nav{
-        height: 90vh;
+        height: 60vh;
     }
 
     .hero-container{
