@@ -43,6 +43,53 @@ a{
 }
 
 
+/* animation for the hero image */
+
+.animate-hero{
+    animation-name: fadeup;
+    animation-timing-function: ease-in-out;
+    animation-duration: 750ms;
+}
+
+
+@keyframes fadeup{
+
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* animation for the header */
+
+.animation-header{
+    animation-name: fadein;
+    animation-timing-function: ease-in-out;
+    animation-duration: 750ms;
+}
+
+@keyframes fadein {
+
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
 /* header section */
 
 .header{
