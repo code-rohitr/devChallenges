@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{https://github.com/code-rohitr/devChallenges/blob/main/Recipe%20Page/screenshots/3.PNG?raw=true}">
       Solution
     </a>
     <span> | </span>
@@ -29,7 +29,7 @@
 - [Overview](#overview)
   <!-- - [Built With](#built-with) -->
 - [Features](#features)
-- [How to use](#how-to-use)
+<!-- - [How to use](#how-to-use) -->
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -37,7 +37,9 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/code-rohitr/devChallenges/blob/main/Recipe%20Page/screenshots/1.PNG?raw=true)
+![screenshot](https://github.com/code-rohitr/devChallenges/blob/main/Recipe%20Page/screenshots/2.PNG?raw=true)
+![screenshot](https://github.com/code-rohitr/devChallenges/blob/main/Recipe%20Page/screenshots/3.PNG?raw=true)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -52,7 +54,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - Your wisdom? :)
 
-### Built With
+<!-- ### Built With -->
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
@@ -66,7 +68,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-The Demo shows the complete user story. The demo site is responsive to all mobile devices. "Animate on Scroll(AOS) library" has been used to add animation on the different components. Animation has also been added to the main image and the header which is visible when the page loads. The checkboxes can be checked if the user has the respetive ingredients. 
+The Demo shows the complete user story. The demo site is responsive to all mobile devices. "Animate on Scroll(AOS) library" has been used to add animation on the different components. Animation has also been added to the main image and the header which is visible when the page loads. The checkboxes can be checked if the user has the respective ingredients. 
 
 - [x] User story: This is a completed user stories
 - [ ] User story: This is a incompleted user stories
