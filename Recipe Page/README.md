@@ -102,5 +102,5 @@ Library used:
 ## Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@code-rohitr](https://{github.com/code-rohitr})
+- GitHub [@code-rohitr](https://github.com/code-rohitr)
 <!-- - Twitter [@your-twitter](https://{twitter.com/your-username}) -->
