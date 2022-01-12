@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Recipe Page}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -47,7 +47,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - The demo has been deployed using Ntlify and can be viewed through the following URL: https://recipe-page-rohitr.netlify.app/
 
 <!-- - What was your experience? -->
--
 
 <!-- - What have you learned/improved? -->
 - This challenge introduced styling the checkboxes which is something new for me.  
@@ -103,5 +102,5 @@ Library used:
 ## Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@your-username](https://{github.com/code-rohitr})
+- GitHub [@code-rohitr](https://{github.com/code-rohitr})
 <!-- - Twitter [@your-twitter](https://{twitter.com/your-username}) -->
