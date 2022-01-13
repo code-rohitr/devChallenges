@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- js link -->
+    <script src="./main.js" defer></script>
+
+    <!-- google fonts icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- HEADER SECTION -->
+    <section class="header">
+        <h1>Checkout</h1>
+    </section>
+
+    <!-- BODY SECTION -->
+    <section class="body">
+
+        <!-- left section / the user-info section -->
+        <section class="user-info">
+
+            <!-- Contact Information -->
+            <section class="contact-container info-heading">
+
+                <!-- Contact information heading -->
+                <h2>Contact Information</h2>
+
+                <div class="contact-shipping-info">
+                    <h3 class="input-label">E-mail</h3>
+                    <div class="input-field">
+                        <span class="material-icons">
+                            email
+                        </span>
+                        <input type="text" placeholder="Enter your email...">
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h3 class="input-label">Phone</h3>
+                    <div class="input-field">
+                        <span class="material-icons">
+                            phone
+                        </span>
+                        <input type="text" placeholder="Enter your email...">
+                    </div>
+                </div>
+
+
+            </section>
+
+
+            <!-- Shipping Address -->
+            <section class="shipping-info info-heading">
+
+
+                <!-- Shipping information heading -->
+                <h2>Shipping Address</h2>
+
+                <div class="shipping-grid">
+
+
+                    <div class="shipping-grid-item">
+                        <h3 class="input-label">Full name</h3>
+                        <div class="input-field">
+                            <span class="material-icons">
+                                account_circle
+                            </span>
+                            <input type="text" placeholder="Enter your Full name">
+                        </div>
+                    </div>
+
+                    <div class="shipping-grid-item">
+                        <h3 class="input-label">Address</h3>
+                        <div class="input-field">
+                            <span class="material-icons">
+                                home
+                            </span>
+                            <input type="text" placeholder="Your Address..">
+                        </div>
+                    </div>
+
+                    <div class="shipping-grid-item">
+                        <h3 class="input-label">City</h3>
+                        <div class="input-field">
+                            <span class="material-icons">
+                                location_city
+                            </span>
+                            <input type="text" placeholder="Your City..">
+                        </div>
+                    </div>
+
+                    <div class="shipping-grid-item">
+                        <h3 class="input-label">Postal code</h3>
+                        <div class="input-field">
+                            <span class="material-icons">
+                                markunread_mailbox
+                            </span>
+                            <input type="text" placeholder="Your postal code..">
+                        </div>
+                    </div>
+
+
+                    <div class="shipping-grid-item">
+                        <h3 class="input-label">Country</h3>
+                        <div class="input-field">
+                            <span class="material-icons">
+                                public
+                            </span>
+                            <!-- <input type="text" placeholder="Your Country.."> -->
+                            <select name="" class="country-select">
+                                <option>Your country..</option>
+                                <option>India</option>
+                                <option>Canada</option>
+                                <option>Australia</option>
+                            </select>
+                            <div class="custom-select">
+                                <span class="material-icons">
+                                    arrow_drop_down
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!-- checkbox -->
+
+            <div class="checkbox-button">
+
+                <input type="checkbox">
+                <p>Save this information for next time</p>
+            </div>
+
+            <div class="main-btn">
+                <button>Continue</button>
+            </div>
+
+        </section>
+
+
+        <!-- right section / product info -->
+
+        <section class="item-info-container">
+
+            <!-- saved item 1 -->
+            <div class="savelater-item-container">
+                <img src="./checkout-page-master/photo1.png" alt="">
+                <div class="savelater-text-content">
+                    <h3>Vintage Backbag</h3>
+                    <div class="pricing">
+                        <h5>$54.99</h5>
+                        <h6>$94.99</h6>
+                    </div>
+
+                    <div class="quantity-container" id="one">
+                        <button class="decrement btn">-</button>
+                        <h4 class="quantity">1</h4>
+                        <button class="increment btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- saved item 2 -->
+            <div class="savelater-item-container">
+                <img src="./checkout-page-master/photo2.png" alt="">
+                <div class="savelater-text-content">
+                    <h3>Vintage Backbag</h3>
+                    <div class="pricing">
+                        <h5>$54.99</h5>
+                        <h6>$94.99</h6>
+                    </div>
+
+                    <div class="quantity-container" id="two">
+                        <button class="decrement btn">-</button>
+                        <h4 class="quantity">1</h4>
+                        <button class="increment btn">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="total-billing">
+
+                <div class="break-line"></div>
+                <div class="shipping-cost total">
+                    <h4>Shipping</h4>
+                    <h5>$19</h5>
+                </div>
+                <div class="break-line"></div>
+                <div class="total-cost total">
+                    <h4>Total</h4>
+                    <h5>$148.98</h5>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    <footer class="footer">
+        <h5>created by <a href="#">code-rohitr</a> - devChallenges.io</h5>
+    </footer>
+
+</body>
+
+</html>
