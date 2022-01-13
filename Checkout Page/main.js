@@ -16,8 +16,8 @@ function value_change(e){
 }
 
 var temp1 = 1;
-var itemtotal1;
-var itemtotal2;
+var itemtotal1 = 0;
+var itemtotal2 = 0;
 
 quantity_container1.addEventListener("click", (e)=>{
 
@@ -104,6 +104,8 @@ quantity_container2.addEventListener("click", (e)=>{
 
     total(itemtotal1, itemtotal2)
 })
+
+console.log(itemtotal1);
 
 
 
