@@ -465,3 +465,163 @@ input::-webkit-inner-spin-button{
     font-weight: 700;
     color: #727272;
 }
+
+
+
+/* ----------------------Media Queries---------------------- */
+
+@media only screen and (max-width: 1024px) {
+
+    .body{
+        width: 80%;
+    }
+
+    .shipping-info{
+        width: 410px;
+
+    }
+
+    .input-field input{
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .body{
+        width: 95%;
+    }
+
+    .shipping-info{
+        width: 360px;
+    }
+
+    .item-info-container{
+        width: 350px;
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+
+    .body{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .item-info-container{
+        /* border: 2px solid red; */
+        width: 400px;
+    }
+
+    .user-info{
+        width: 400px;
+    }
+
+    .footer{
+        margin-top: 5vh;
+    }
+
+    .shipping-info{
+        width: 400px;
+
+    }
+
+}
+
+@media only screen and (max-width: 395px) {
+
+    .item-info-container{
+        width: 95%;
+    }
+
+    .user-info{
+        width: 370px;
+    }
+
+    .shipping-info{
+        width: 370px;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .item-info-container{
+        width: 95%;
+    }
+
+    .user-info{
+        width: 370px;
+    }
+
+    .shipping-info{
+        width: 370px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .body{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .user-info{
+        width: 95%;
+    }
+
+    .shipping-info{
+        width: 100%;
+    }
+
+    .item-info-container{
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .body{
+        width: 95%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+    .savelater-item-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .savelater-item-container img{
+
+        height: 130px;
+    }
+
+    .savelater-text-content{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+        display: 80%;
+        height: 80%;
+    }
+
+    .quantity-container{
+        width: 140px;
+    }
+}
