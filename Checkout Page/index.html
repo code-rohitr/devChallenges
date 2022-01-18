@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="./style.css">
 
     <!-- js link -->
-    <script src="./main.js" defer></script>
+    <!-- <script src="./main.js" defer></script> -->
+    <script src="./main2.js" defer></script>
+
+    <!-- regex js script -->
+    <script src="./regex.js" defer></script>
 
     <!-- google fonts icon CDN -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,7 +27,7 @@
     <!-- HEADER SECTION -->
     <section class="header">
         <h1>Checkout</h1>
-    </section>
+    </section> 
 
     <!-- BODY SECTION -->
     <section class="body">
@@ -43,7 +47,7 @@
                         <span class="material-icons">
                             email
                         </span>
-                        <input type="text" placeholder="Enter your email...">
+                        <input type="text" placeholder="Enter your email..." id="email">
                     </div>
                 </div>
 
@@ -53,7 +57,7 @@
                         <span class="material-icons">
                             phone
                         </span>
-                        <input type="text" placeholder="Enter your email...">
+                        <input type="text" placeholder="Enter your phone..." id="phone">
                     </div>
                 </div>
 
@@ -77,7 +81,7 @@
                             <span class="material-icons">
                                 account_circle
                             </span>
-                            <input type="text" placeholder="Enter your Full name">
+                            <input type="text" placeholder="Enter your Full name" id="name">
                         </div>
                     </div>
 
@@ -87,7 +91,7 @@
                             <span class="material-icons">
                                 home
                             </span>
-                            <input type="text" placeholder="Your Address..">
+                            <input type="text" placeholder="Your Address.." id="address">
                         </div>
                     </div>
 
@@ -97,7 +101,7 @@
                             <span class="material-icons">
                                 location_city
                             </span>
-                            <input type="text" placeholder="Your City..">
+                            <input type="text" placeholder="Your City.." id="city">
                         </div>
                     </div>
 
@@ -107,7 +111,7 @@
                             <span class="material-icons">
                                 markunread_mailbox
                             </span>
-                            <input type="text" placeholder="Your postal code..">
+                            <input type="text" placeholder="Your postal code.." id="postal">
                         </div>
                     </div>
 
@@ -168,7 +172,8 @@
 
                     <div class="quantity-container" id="one">
                         <button class="decrement btn">-</button>
-                        <h4 class="quantity">1</h4>
+                        <!-- <h4 class="quantity">1</h4> -->
+                        <input type="number" value="1" class="quantity">
                         <button class="increment btn">+</button>
                     </div>
                 </div>
@@ -186,7 +191,8 @@
 
                     <div class="quantity-container" id="two">
                         <button class="decrement btn">-</button>
-                        <h4 class="quantity">1</h4>
+                        <!-- <h4 class="quantity">1</h4> -->
+                        <input type="number" value="1" class="quantity">
                         <button class="increment btn">+</button>
                     </div>
                 </div>
