@@ -30,7 +30,7 @@
   <!-- - [Built With](#built-with) -->
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+<!-- - [Acknowledgements](#acknowledgements) -->
 
 <!-- OVERVIEW -->
 
