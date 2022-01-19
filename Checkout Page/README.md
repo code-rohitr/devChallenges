@@ -65,7 +65,12 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-<!-- This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories. -->
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
+
+- The demo contains a form which validates the user input for the fields of e-mail, phone, name, country and postal code.
+- If the validation fails then the form is not submitted and and the user gets an error message.
+- The number of items can be changed in the cart as per the wish of the user.
+- The demo webpage is fully responsive.
 
 
 
