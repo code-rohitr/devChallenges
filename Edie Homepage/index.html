@@ -10,17 +10,37 @@
     <!-- css stylesheet -->
     <link rel="stylesheet" href="./style.css">
 
+    <!-- js -->
+    <script src="./main.js" defer></script>
+
     <!-- google icons api -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
 <body>
+
+    <!-- nav menu -->
+    <section class="nav-menu">
+        <ul>
+            <li>home</li>
+            <li>services</li>
+            <li>our works</li>
+            <li>clients</li>
+            <li>contact</li>
+        </ul>
+    </section>
+
     <!-- Nav section -->
     <section class="nav">
         <div class="logo">
             <a href="./index.html">Edei</a>
         </div>
+
+        <!-- ham menu -->
+        <span class="material-icons ham-menu">
+            menu
+            </span>
 
         <div class="nav-links">
             <ul>
@@ -61,7 +81,7 @@
 
 
     <!-- high demand services section -->
-    <section class="high-demand">
+    <section class="high-demand" id="services">
         <h3>We offer high demand services</h3>
         <div class="services-cards">
             <div class="services-card">
