@@ -35,7 +35,7 @@
 
 <!-- OVERVIEW -->
 
-## Overview
+<!-- ## Overview -->
 
 <!-- ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png) -->
 
@@ -48,7 +48,7 @@
 - This challenge is a great way to practise grid and flexbox
 <!-- - Your wisdom? :) -->
 
-### Built With
+<!-- ### Built With -->
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
@@ -62,7 +62,7 @@
 
 <!-- This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories. -->
 
-## How To Use
+<!-- ## How To Use -->
 
 <!-- Example: -->
 
@@ -70,16 +70,16 @@
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+# $ git clone https://github.com/your-user-name/your-project-name
 
 # Install dependencies
-$ npm install
+# $ npm install
 
 # Run the app
-$ npm start
+# $ npm start
 ```
 
-## Acknowledgements
+<!-- ## Acknowledgements -->
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
@@ -87,7 +87,7 @@ $ npm start
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked) -->
 
-## Contact
+<!-- ## Contact -->
 
 <!-- - Website [your-website.com](https://{your-web-site-link})
 - GitHub [@your-username](https://{github.com/your-usermame})
